@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Level Up Lernen</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="login-status" id="loginStatus">
@@ -21,15 +23,22 @@
 </div>
 
 <nav>
-    <a href="#">Start</a>
-    <a href="#">Fächer</a>
-    <a href="#">Preise</a>
-    <a href="#">Kontakt</a>
+
+    <a href="#start">Start</a>
+
+    <a href="#faecher">Fächer</a>
+
+    <a href="#preise">Preise</a>
+
+    <a href="#kontakt">Kontakt</a>
+
 </nav>
 
 </header>
 
-<section class="startseite">
+
+
+<section class="startseite" id="start">
 
 <div class="text-bereich">
 
@@ -62,43 +71,360 @@
 
 </section>
 
-<section class="faecher">
+
+
+<section class="faecher" id="faecher">
 
 <h2>Unsere Fächer</h2>
 
 <div class="karten">
 
-<figure>
+
+
+<div class="fach-box">
+
+<figure class="fach-button">
+
 <img src="Images/Taschenrechner.jpeg">
+
 <figcaption>
+
 <h3>Mathe</h3>
-<p>Verständlich erklärt & gezielt geübt</p>
+
+<p>
+Verständlich erklärt & gezielt geübt
+</p>
+
 </figcaption>
+
 </figure>
 
-<figure>
+
+<div class="fach-info">
+
+<div class="lehrer">
+
+<img src="Images/P1.jpg" class="lehrer-bild">
+
+<h4>Leon Weber</h4>
+
+<p>
+8 Jahre Erfahrung in Algebra, Geometrie und Prüfungsvorbereitung.
+Besonders beliebt für einfache und verständliche Erklärungen.
+</p>
+
+<button>
+Kontaktieren
+</button>
+
+</div>
+
+
+
+<div class="lehrer">
+
+<img src="Images/P5.jpg" class="lehrer-bild">
+
+<h4>Sarah Klein</h4>
+
+<p>
+Unterstützt Schüler gezielt bei Klassenarbeiten,
+Hausaufgaben und langfristigem Lernaufbau.
+</p>
+
+<button>
+Kontaktieren
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="fach-box">
+
+<figure class="fach-button">
+
 <img src="Images/Buch.jpeg">
+
 <figcaption>
+
 <h3>Deutsch</h3>
-<p>Sicher schreiben und besser verstehen</p>
+
+<p>
+Sicher schreiben und besser verstehen
+</p>
+
 </figcaption>
+
 </figure>
 
-<figure>
+
+<div class="fach-info">
+
+<div class="lehrer">
+
+<img src="Images/P4.jpg" class="lehrer-bild">
+
+<h4>Hana Mori</h4>
+
+<p>
+Expertin für Grammatik, Texte schreiben
+und Interpretation mit modernen Lernmethoden.
+</p>
+
+<button>
+Kontaktieren
+</button>
+
+</div>
+
+
+
+<div class="lehrer">
+
+<img src="Images/P3.jpg" class="lehrer-bild">
+
+<h4>Eva Klein</h4>
+
+<p>
+Hilft Schülern bei Rechtschreibung,
+Analyse und sicherem Ausdruck.
+</p>
+
+<button>
+Kontaktieren
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="fach-box">
+
+<figure class="fach-button">
+
 <img src="Images/Kommentar.jpeg">
+
 <figcaption>
+
 <h3>Englisch</h3>
-<p>Grammatik, Vokabeln & Conversation</p>
+
+<p>
+Grammatik, Vokabeln & Conversation
+</p>
+
 </figcaption>
+
 </figure>
+
+
+<div class="fach-info">
+
+<div class="lehrer">
+
+<img src="Images/P2.jpg" class="lehrer-bild">
+
+<h4>Lucas Brown</h4>
+
+<p>
+Muttersprachlicher Lehrer mit Fokus
+auf Speaking und flüssiges Englisch.
+</p>
+
+<button>
+Kontaktieren
+</button>
+
+</div>
+
+
+
+<div class="lehrer">
+
+<img src="Images/P6.jpg" class="lehrer-bild">
+
+<h4>David Klein</h4>
+
+<p>
+Unterstützt gezielt bei Schulaufgaben,
+Listening und Grammatiktraining.
+</p>
+
+<button>
+Kontaktieren
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
 
 </div>
 
 </section>
 
-<div class="ablauf">
 
-<h2>So läuft's ab:</h2>
+
+<section class="preise" id="preise">
+
+<h2>Unsere Preise</h2>
+
+<p class="preise-untertitel">Flexible Pakete für jeden Bedarf</p>
+
+<div class="preis-karten">
+
+<div class="preis-karte">
+
+<h3>Einzelstunden</h3>
+
+<p class="preis-betrag">25 €</p>
+
+<p class="preis-text">pro Stunde</p>
+
+<ul class="preis-liste">
+
+<li>✓ 60 Minuten Unterricht</li>
+
+<li>✓ Flexible Terminabsprache</li>
+
+<li>✓ Persönlicher Lehrer</li>
+
+<li>✓ Keine Vertragsbindung</li>
+
+</ul>
+
+<button class="preis-button">Jetzt buchen</button>
+
+</div>
+
+
+<div class="preis-karte beliebt">
+
+<div class="beliebt-label">Beliebteste Option</div>
+
+<h3>5er-Paket</h3>
+
+<p class="preis-betrag">115 €</p>
+
+<p class="preis-text">5 x 60 Minuten</p>
+
+<ul class="preis-liste">
+
+<li>✓ 23 € pro Stunde</li>
+
+<li>✓ Fortlaufender Lernplan</li>
+
+<li>✓ 1 Monat Gültigkeit</li>
+
+<li>✓ 8.5 % Rabatt</li>
+
+</ul>
+
+<button class="preis-button">Jetzt buchen</button>
+
+</div>
+
+
+<div class="preis-karte">
+
+<h3>10er-Paket</h3>
+
+<p class="preis-betrag">200 €</p>
+
+<p class="preis-text">10 x 60 Minuten</p>
+
+<ul class="preis-liste">
+
+<li>✓ 20 € pro Stunde</li>
+
+<li>✓ Individueller Lernplan</li>
+
+<li>✓ 2 Monate Gültigkeit</li>
+
+<li>✓ Regelmäßige Fortschrittsberichte</li>
+
+</ul>
+
+<button class="preis-button">Jetzt buchen</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="kontakt" id="kontakt">
+
+<h2>Kontakt & Support</h2>
+
+<div class="kontakt-inhalt">
+
+<div class="kontakt-info">
+
+<h3>Schreib uns</h3>
+
+<p class="kontakt-details">
+📧 <strong>info@leveluplernen.de</strong>
+</p>
+
+<p class="kontakt-details">
+📱 <strong>+49 (0) 123 456789</strong>
+</p>
+
+<p class="kontakt-beschreibung">
+Wir sind Mo-Sa von 9:00 - 17:00 Uhr für dich erreichbar und beantworten alle Fragen schnellstmöglich.
+</p>
+
+</div>
+
+<div class="kontakt-form-bereich">
+
+<h3>Direktnachricht</h3>
+
+<form id="kontaktForm">
+
+<input type="text" id="kontaktName" placeholder="Dein Name" required>
+
+<input type="email" id="kontaktEmail" placeholder="Deine E-Mail" required>
+
+<textarea id="kontaktNachricht" placeholder="Deine Nachricht..." required></textarea>
+
+<button type="submit" class="preis-button">Nachricht senden</button>
+
+</form>
+
+<div class="kontakt-success" id="kontaktSuccess">
+✅ Nachricht gesendet! Wir melden uns bald.
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="ablauf">
+
+<h2>
+So läuft's ab:
+</h2>
 
 <div class="linie"></div>
 
@@ -113,25 +439,51 @@
 <div class="ablauf-text">
 
 <div class="box">
-<h3>Kontakt aufnehmen</h3>
-<p>Kurz schreiben & Termin anfragen</p>
+
+<h3>
+Kontakt aufnehmen
+</h3>
+
+<p>
+Kurz schreiben & Termin anfragen
+</p>
+
 </div>
+
 
 <div class="box">
-<h3>Probestunde</h3>
-<p>Kennenlernen & Plan erstellen</p>
+
+<h3>
+Probestunde
+</h3>
+
+<p>
+Kennenlernen & Plan erstellen
+</p>
+
 </div>
+
 
 <div class="box">
-<h3>Durchstarten</h3>
-<p>Besser lernen & Ziele erreichen</p>
-</div>
+
+<h3>
+Durchstarten
+</h3>
+
+<p>
+Besser lernen & Ziele erreichen
+</p>
 
 </div>
 
 </div>
 
 </div>
+
+</div>
+
+
+
 
 
 <div class="popup" id="popup">
@@ -142,7 +494,9 @@
 ✕
 </div>
 
-<h2>Kostenlose Probestunde</h2>
+<h2>
+Kostenlose Probestunde
+</h2>
 
 <p>
 Melde dich kostenlos an und sichere dir deine erste Stunde.
@@ -168,10 +522,14 @@ Jetzt anmelden
 
 </div>
 
+
+
 <script>
 
 const popup = document.getElementById("popup");
+
 const openPopup = document.getElementById("openPopup");
+
 const closePopup = document.getElementById("closePopup");
 
 const popupForm = document.getElementById("popupForm");
@@ -181,16 +539,19 @@ const successMessage = document.getElementById("successMessage");
 const loginStatus = document.getElementById("loginStatus");
 
 
+
 openPopup.addEventListener("click", () => {
 
     popup.classList.add("active");
 });
 
 
+
 closePopup.addEventListener("click", () => {
 
     popup.classList.remove("active");
 });
+
 
 
 popup.addEventListener("click", (e) => {
@@ -200,6 +561,7 @@ popup.addEventListener("click", (e) => {
         popup.classList.remove("active");
     }
 });
+
 
 
 popupForm.addEventListener("submit", (e) => {
@@ -228,6 +590,7 @@ popupForm.addEventListener("submit", (e) => {
 });
 
 
+
 window.addEventListener("load", () => {
 
     if(localStorage.getItem("registered") === "yes"){
@@ -235,6 +598,70 @@ window.addEventListener("load", () => {
         loginStatus.style.display = "block";
     }
 });
+
+
+
+const fachButtons = document.querySelectorAll(".fach-button");
+
+const fachBoxen = document.querySelectorAll(".fach-box");
+
+
+
+fachButtons.forEach((button, index) => {
+
+    button.addEventListener("click", () => {
+
+        fachBoxen[index].classList.toggle("active");
+    });
+});
+
+
+
+function openFach(index){
+
+    fachBoxen[index].scrollIntoView({
+
+        behavior:"smooth",
+
+        block:"center"
+    });
+
+    fachBoxen[index].classList.add("active");
+}
+
+
+
+const kontaktForm = document.getElementById("kontaktForm");
+
+const kontaktSuccess = document.getElementById("kontaktSuccess");
+
+
+
+if(kontaktForm){
+
+    kontaktForm.addEventListener("submit", (e) => {
+
+        e.preventDefault();
+
+        const name = document.getElementById("kontaktName").value;
+
+        const email = document.getElementById("kontaktEmail").value;
+
+        const nachricht = document.getElementById("kontaktNachricht").value;
+
+        console.log("Kontakt: ", name, email, nachricht);
+
+        kontaktSuccess.style.display = "block";
+
+        kontaktForm.reset();
+
+        setTimeout(() => {
+
+            kontaktSuccess.style.display = "none";
+
+        }, 3000);
+    });
+}
 
 </script>
 
